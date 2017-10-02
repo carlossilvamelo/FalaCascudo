@@ -73,6 +73,10 @@ public class SpeakCaptureManagerActivity extends VoiceRecognition {
      * reconhecimento de voz, retornando uma lista de possiveis frases.
      * O metodo apenas seta a listView mostrando para o usuário as opções de possíveis frases e
      * pedindo que ele escolha a frase falada.
+     *
+     * @param resultCode - status do resultado da resposta
+     * @param requestCode - referência da resposta
+     * @param data - Intent retornada da activity chamada
      */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

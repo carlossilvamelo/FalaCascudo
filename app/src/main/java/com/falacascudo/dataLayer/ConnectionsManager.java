@@ -6,6 +6,9 @@ import java.sql.SQLException;
 
 /**
  * Created by carlo on 27/09/2017.
+ * Esta classe manipula as conexões para os bancos de dados local e remoto da aplicação.
+ * É uma classe SINGLETON, para instanciar uma conexão local ou remota basta utilizar
+ * os metodos getLocalConnection() ou getRemoteConnection().
  */
 
 public class ConnectionsManager {
@@ -19,7 +22,7 @@ public class ConnectionsManager {
 
 
     private ConnectionsManager(){
-        // TODO Auto-generated constructor stub
+       //construtor privado, pois é uma classe singleton
 
     }
 
