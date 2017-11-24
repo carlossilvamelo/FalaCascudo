@@ -1,4 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FalaCascudo</string>
+    <string name="app_name">Fala Cascudo!</string>
     <string name="enviar">Enviar</string>
+
+
 </resources>

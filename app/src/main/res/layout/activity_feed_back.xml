@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.falacascudo.FeedBackActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <Button
+
+            android:id="@+id/btFalar"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginTop="10dp"
+            android:background="#b44b00"
+            android:fontFamily="casual"
+            android:onClick="reconhecimentoVoz"
+            android:text="Clique para falar"
+            android:textColor="#ffffff"
+            android:textSize="13pt" />
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/textFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="Digite sua opinião aqui..."
+        android:inputType="textMultiLine"
+        android:textColor="#000000" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <Button
+            android:id="@+id/btEnviar"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginTop="10dp"
+            android:onClick="enviarFeedback"
+            android:background="#b44b00"
+            android:fontFamily="casual"
+            android:text="Enviar FeedBack"
+            android:textColor="#ffffff"
+            android:textSize="13pt" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

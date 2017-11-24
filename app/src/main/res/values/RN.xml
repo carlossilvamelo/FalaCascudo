@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="RN">
+        <item>Natal</item>
+        <item>Mossoró</item>
+        <item>Parnamirim</item>
+        <item>São Gonçalo do Amarante</item>
+        <item>Macaíba</item>
+        <item>Ceará-Mirim</item>
+        <item>Caicó</item>
+        <item>Assu</item>
+        <item>Currais Novos</item>
+        <item>São José de Mipibu</item>
+        <item>Santa Cruz</item>
+        <item>Nova Cruz</item>
+        <item>Apodi</item>
+        <item>João Câmara</item>
+        <item>Touros</item>
+        <item>Canguaretama</item>
+        <item>Macau</item>
+        <item>Pau dos Ferros</item>
+        <item>Areia Branca</item>
+        <item>Extremoz</item>
+        <item>Baraúna</item>
+        <item>Nísia Floresta</item>
+        <item>Goianinha</item>
+        <item>Santo Antônio</item>
+        <item>São Miguel</item>
+        <item>Monte Alegre</item>
+        <item>Parelhas</item>
+        <item>Caraúbas</item>
+        <item>Jucurutu</item>
+        <item>São Paulo do Potengi</item>
+        <item>Tangará</item>
+        <item>Pedro Velho</item>
+        <item>Lagoa Nova</item>
+        <item>Poço Branco</item>
+        <item>Ipanguaçu</item>
+        <item>Santana do Matos</item>
+        <item>Jardim de Piranhas</item>
+        <item>Alexandria</item>
+        <item>Pendências</item>
+        <item>Upanema</item>
+        <item>Arez</item>
+        <item>Guamaré</item>
+        <item>Governador Dix-Sept Rosado</item>
+        <item>São José do Campestre</item>
+        <item>Alto do Rodrigues</item>
+        <item>Ielmo Marinho</item>
+        <item>Jardim do Seridó</item>
+        <item>Patu</item>
+        <item>Taipu</item>
+        <item>Brejinho</item>
+        <item>Angicos</item>
+        <item>Montanhas</item>
+        <item>Tibau do Sul</item>
+        <item>Passa-e-Fica</item>
+        <item>Acari</item>
+        <item>Cerro Corá</item>
+        <item>Afonso Bezerra</item>
+        <item>São Tomé</item>
+        <item>Vera Cruz</item>
+        <item>Umarizal</item>
+        <item>Espírito Santo</item>
+        <item>Maxaranguape</item>
+        <item>Lajes</item>
+        <item>Serra do Mel</item>
+        <item>Campo Redondo</item>
+        <item>Rio do Fogo</item>
+        <item>Tenente Ananias</item>
+        <item>Carnaubais</item>
+        <item>Luís Gomes</item>
+        <item>Bom Jesus</item>
+        <item>Grossos</item>
+        <item>Campo Grande</item>
+        <item>Boa Saúde</item>
+        <item>Florânia</item>
+        <item>Serra Caiada</item>
+        <item>São Miguel do Gostoso</item>
+        <item>Baía Formosa</item>
+        <item>Pureza</item>
+        <item>Marcelino Vieira</item>
+        <item>Martins</item>
+        <item>São Rafael</item>
+        <item>Cruzeta</item>
+        <item>Jaçanã</item>
+        <item>Serra Negra do Norte</item>
+        <item>Lagoa Salgada</item>
+        <item>Carnaúba dos Dantas</item>
+        <item>Portalegre</item>
+        <item>Pedro Avelino</item>
+        <item>Riachuelo</item>
+        <item>Lagoa de Pedras</item>
+        <item>Itajá</item>
+        <item>Antônio Martins</item>
+        <item>Jandaíra</item>
+        <item>Serrinha</item>
+        <item>Doutor Severiano</item>
+        <item>Lagoa d\'Anta</item>
+        <item>São Pedro</item>
+        <item>São Vicente</item>
+        <item>Caiçara do Norte</item>
+        <item>São João do Sabugi</item>
+        <item>José da Penha</item>
+        <item>Equador</item>
+        <item>Severiano Melo</item>
+        <item>Serra de São Bento</item>
+        <item>Felipe Guerra</item>
+        <item>Senador Elói de Souza</item>
+        <item>Itaú</item>
+        <item>Japi</item>
+        <item>Tenente Laurentino Cruz</item>
+        <item>Coronel Ezequiel</item>
+        <item>Janduís</item>
+        <item>Encanto</item>
+        <item>Várzea</item>
+        <item>Porto do Mangue</item>
+        <item>Bento Fernandes</item>
+        <item>Sítio Novo</item>
+        <item>Almino Afonso</item>
+        <item>Parazinho</item>
+        <item>Coronel João Pessoa</item>
+        <item>Santa Maria</item>
+        <item>Ouro Branco</item>
+        <item>Rafael Fernandes</item>
+        <item>Lajes Pintadas</item>
+        <item>Serrinha dos Pintos</item>
+        <item>Rodolfo Fernandes</item>
+        <item>Olho-d\'Água do Borges</item>
+        <item>Frutuoso Gomes</item>
+        <item>São José do Seridó</item>
+        <item>Messias Targino</item>
+        <item>Riacho de Santana</item>
+        <item>Barcelona</item>
+        <item>Paraná</item>
+        <item>Senador Georgino Avelino</item>
+        <item>São Bento do Trairi</item>
+        <item>São Francisco do Oeste</item>
+        <item>Paraú</item>
+        <item>Venha-Ver</item>
+        <item>Tibau</item>
+        <item>Lucrécia</item>
+        <item>Ruy Barbosa</item>
+        <item>Jundiá</item>
+        <item>Major Sales</item>
+        <item>Pedra Grande</item>
+        <item>Pilões</item>
+        <item>São Fernando</item>
+        <item>Triunfo Potiguar</item>
+        <item>Caiçara do Rio do Vento</item>
+        <item>Riacho da Cruz</item>
+        <item>Rafael Godeiro</item>
+        <item>Água Nova</item>
+        <item>São Bento do Norte</item>
+        <item>Passagem</item>
+        <item>Francisco Dantas</item>
+        <item>Vila Flor</item>
+        <item>Fernando Pedroza</item>
+        <item>Lagoa de Velhos</item>
+        <item>Jardim de Angicos</item>
+        <item>João Dias</item>
+        <item>Pedra Preta</item>
+        <item>Santana do Seridó</item>
+        <item>Bodó</item>
+        <item>Taboleiro Grande</item>
+        <item>Timbaúba dos Batistas</item>
+        <item>Monte das Gameleiras</item>
+        <item>Galinhos</item>
+        <item>Ipueira</item>
+        <item>Viçosa</item>
+    </string-array>
+
+</resources>

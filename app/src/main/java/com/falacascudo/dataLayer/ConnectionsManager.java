@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * Created by carlo on 27/09/2017.
+ * Created by carlos on 27/09/2017.
  * Esta classe manipula as conexões para os bancos de dados local e remoto da aplicação.
  * É uma classe SINGLETON, para instanciar uma conexão local ou remota basta utilizar
  * os metodos getLocalConnection() ou getRemoteConnection().

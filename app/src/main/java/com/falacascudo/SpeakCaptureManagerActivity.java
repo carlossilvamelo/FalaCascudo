@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by carlo on 25/09/2017.
+ * Created by carlos on 25/09/2017.
  * Esta classe implementa a chamada da intent que realiza o reconhecimento de voz e
  * uma validação dos dados reconhecidos.
  */
@@ -78,6 +78,7 @@ public class SpeakCaptureManagerActivity extends VoiceRecognition {
      * @param requestCode - referência da resposta
      * @param data - Intent retornada da activity chamada
      */
+    public static final String INVALID_OPTION = "Nenhuma das opções!";
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         // Check which request we're responding to
@@ -86,7 +87,8 @@ public class SpeakCaptureManagerActivity extends VoiceRecognition {
                 // Make sure the request was successful
                 listViewPossibleWordList = (ListView) findViewById(R.id.listViewPossibleWordList);
                 words = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
-                words.add("Nenhuma das opções!");
+
+                words.add(INVALID_OPTION);
                 listViewPossibleWordList.setAdapter(new ArrayAdapter<String>(this
                         , android.R.layout.simple_list_item_activated_1, words));
 

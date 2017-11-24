@@ -3,10 +3,10 @@ package com.falacascudo.dataLayer;
 import com.falacascudo.models.FeedBack;
 
 /**
- * Created by carlo on 27/09/2017.
+ * Created by carlos on 27/09/2017.
  */
 
-public interface DataPersistence{
+public interface IDataCrud {
 
     public void insert(FeedBack feedBack);
 }

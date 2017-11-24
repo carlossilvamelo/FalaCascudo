@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 /**
- * Created by carlo on 25/09/2017.
+ * Created by carlos on 25/09/2017.
  * <p>
  * Classe implementa o reconhecimento de voz cia API Speech to Texto
  */
@@ -47,7 +47,7 @@ public class VoiceRecognition extends AppCompatActivity {
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL
                 , RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
         intent.putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, getPackageName());
-        intent.putExtra(RecognizerIntent.EXTRA_PROMPT, "fale algo");
+        intent.putExtra(RecognizerIntent.EXTRA_PROMPT, "Fale a sua opinião");
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "pt-BR");
         intent.putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 30);
         //testes

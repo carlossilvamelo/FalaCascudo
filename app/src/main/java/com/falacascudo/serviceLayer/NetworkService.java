@@ -5,7 +5,7 @@ import android.net.ConnectivityManager;
 import android.widget.Toast;
 
 /**
- * Created by carlo on 27/09/2017.
+ * Created by carlos on 27/09/2017.
  */
 
 public class NetworkService {

@@ -10,9 +10,9 @@ import android.widget.Toast;
 import com.falacascudo.serviceLayer.NetworkService;
 
 /**
- * Created by carlo on 02/10/2017.
- * Esta classe é um listener de conectividade. O sistema operacional notifica
- * através de broadcast sobre as mudanças.
+ * Created by carlos on 02/10/2017.
+ * Esta classe é um listener de conectividade. Tendo opapel de escutar a conectividade com a rede
+ * no sistema operacional e fazer o correto tratamento, chamando o devido serviço (service).
  */
 
 public class ConnectivityChangeReceiver extends BroadcastReceiver {
